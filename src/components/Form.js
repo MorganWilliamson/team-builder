@@ -16,7 +16,7 @@ export default function Form(props) {
     }
 
     return (
-        <form className="form-container" onSubmit={onSubmit}> 
+        <form className="formContainer" onSubmit={onSubmit}> 
             <div className="form-inputs">
                 <label>Name 
                     <input type="text"
@@ -41,11 +41,11 @@ export default function Form(props) {
                 <label>Role 
                     <select name="role" value={values.role} onChange={onChange}>
                         <option value=" ">- Select Role -</option>
-                        <option value="front-end">Front-End Engineer</option>
-                        <option value="back-end">Back-End Engineer</option>
-                        <option value="ui">UI/UX Designer</option>
-                        <option value="ios">iOS Specialist</option>
-                        <option value="android">Android Specialist</option>
+                        <option value="Front-End Designer">Front-End Designer</option>
+                        <option value="Back-End Engineer">Back-End Engineer</option>
+                        <option value="UI/UX Designer">UI/UX Designer</option>
+                        <option value="iOS Specialist">iOS Specialist</option>
+                        <option value="Android Specialist">Android Specialist</option>
                     </select>
                 </label>
                 <button disabled={!values.name || !values.email || !values.role}>

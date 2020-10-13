@@ -6,3 +6,31 @@ html{
   background: #f4f4f4;
   width: 100%;
 }
+
+/* adds spacing between the bottom of the inputs and the top of the team members */
+.formContainer{
+  margin-bottom: 5%;
+}
+
+.teamMemberContainer{
+  border: 2px solid blue;
+  color: blue;
+  background: orange;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 1% 25%;
+}
+
+.teamMemberContainer:nth-of-type(2){
+  border: 2px solid red;
+  color: red;
+  background: green;
+}
+
+.teamMemberContainer:nth-of-type(3){
+  border: 2px soild yellow;
+  color: yellow;
+  background: purple;
+}
