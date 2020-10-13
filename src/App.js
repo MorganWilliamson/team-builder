@@ -47,8 +47,8 @@ export default function App() {
   }, []);
     
   return (
-    <div className="app-container">
-      <h1>i'm a website</h1>
+    <div className="App">
+      <h1>Team Builder App</h1>
 
       <Form
       values={formValues}

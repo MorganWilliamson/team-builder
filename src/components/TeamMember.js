@@ -1,4 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledTM = styled.div`
+    background: red;
+`
 
 export default function TeamMember(props) {
     const {details} = props;
